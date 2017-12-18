@@ -26,6 +26,10 @@
 	</properties>
 
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
 		<!--配置服务器-->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>

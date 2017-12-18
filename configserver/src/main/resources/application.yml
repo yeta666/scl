@@ -12,5 +12,9 @@ spring:
           username: 429721783@qq.com    #git用户名
           password: tt429721783   #git密码
       label: master   #仓库的分支
+eureka:
+  client:
+    service-url:
+      default-Zone: http://localhost:8761/eurekaserver/   #注明服务注册中心的地址
 
 
