@@ -1,8 +1,8 @@
 server:
-  port: 8768
+  port: 8767
 spring:
   application:
-    name: SERVICE-CONFIG    #服务与服务之间相互调用是通过这个 name
+    name: SERVICE-CONFIGSERVER    #服务与服务之间相互调用是通过这个 name
   cloud:
     config:
       server:
@@ -12,4 +12,5 @@ spring:
           username: 429721783@qq.com    #git用户名
           password: tt429721783   #git密码
       label: master   #仓库的分支
+
 

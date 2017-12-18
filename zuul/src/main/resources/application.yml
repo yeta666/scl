@@ -11,7 +11,7 @@ zuul:
       path: /api-b/**
       serviceId: SERVICE-FEIGN   #以 /api-b/ 开头的请求都转发给 SERVICE-FEIGN 服务
 server:
-  port: 8769
+  port: 8766
 spring:
   application:
     name: SERVICE-ZUUL    #服务与服务之间相互调用是通过这个 name
