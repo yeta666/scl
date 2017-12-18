@@ -1,0 +1,13 @@
+# eureka 没有后端缓存，每一个实例注册之后需要向注册中心发送心跳，因此在内存中完成；
+#默认情况下 erueka server 也是一个 eureka client ，必须指定一个 server；
+#访问界面：http://localhost:8761
+server:
+  port: 8761
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false   #表明这是一个 eureka server
+    fetch-registry: false   #表明这是一个 eureka server
+    service-url:
+      default-Zone: http://${eureka.instance.hostname}:${server.port}/eurekaserver/

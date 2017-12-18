@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      default-Zone: http://localhost:8761/eurekaserver/   #注明服务注册中心的地址
+server:
+  port: 8764
+spring:
+  application:
+    name: SERVICE-RIBBON    #服务与服务之间相互调用是通过这个 name

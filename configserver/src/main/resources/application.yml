@@ -1,0 +1,10 @@
+server:
+  port: 8768
+spring:
+  application:
+    name: SERVICE-CONFIG    #服务与服务之间相互调用是通过这个 name
+  cloud:
+    config:
+      server:
+        git:
+          uri:
